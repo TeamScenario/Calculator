@@ -22,3 +22,10 @@ python new_calculator.py
 ## Same thing but in a intresting way ✨
 
 
+## TODO
+- [ ] Better readme
+- [x] Improvements 
+- [x] Design improvements
+
+[^TeamScenario]
+[^TeamScenario]: *©2022 TeamScenario All rights reserved!*
