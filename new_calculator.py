@@ -4,6 +4,14 @@ import time
 
 class Calculator:
     def __init__(self):
+        self.guide='''"+" for Addition (Default)
+"-" for  substraction
+"*", "×", "x" for multiplication
+"/", "÷" for  division
+"//" for floor division
+"%" for remainder (Modulus)
+\n\n'''
+        print(self.guide)
         self.result="Unable to calculate..."
         self.fnum="0"
         self.Snum="0"
@@ -57,6 +65,7 @@ Enter a valid option: """))
         if fcheck==2:
             self.__multiple_cal()
         else:
+            print(self.guide)
             try:
                 self.fnum=eval(input("Enter the first number: "))
                 self.Snum=eval(input("Enter the second number: "))
@@ -90,6 +99,7 @@ Enter a valid option: """))
             pass
 
     def __multiple_cal(self):
+        print(self.guide)
         try:
             nums=eval(input("Enter the numbers with operation (everything together): "))
         except ValueError:
