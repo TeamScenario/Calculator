@@ -12,11 +12,11 @@ git clone https://github.com/TeamScenario/Python-Calculator pycalculator
 ```
 After clone
 ```console
-cd pycalculator
+cd Python-Calculator
 ```
 After cd
 ```console
-python calculator.py
+python new_calculator.py
 ```
 
 ## Same thing but in a intresting way ✨
