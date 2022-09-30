@@ -1,4 +1,4 @@
-# Python-Calculator
+## Currently in development. Last updated [30/09/2022][10:20 pm]
 A simple but efficient python calculator!
 
 ## Steps to use
@@ -8,11 +8,11 @@ pkg install git
 ```
 After installing git
 ```console
-git clone https://github.com/TeamScenario/Python-Calculator pycalculator
+git clone https://github.com/TeamScenario/PCalculator calculatorr
 ```
 After clone
 ```console
-cd Python-Calculator
+cd calculatorr/python/Calculator
 ```
 After cd
 ```console
